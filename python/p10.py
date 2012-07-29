@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-nums = [x for x in xrange(0, 2000000)]
+nums = range(0, 2000000)
 
 nums[0] = None
 nums[1] = None
