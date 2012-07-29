@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-import sys
-
 n = 5
 def spiral(n):
     M = []
@@ -41,7 +39,7 @@ def spiral(n):
 
     return M
 
-n = int(sys.argv[1])
+n = 1001
 S = spiral(n)
 s = 0
 for x in range(0, n):
